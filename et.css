@@ -14,7 +14,7 @@
 }
 body {
   font-family: "Times New Roman", cursive;
-  background-color: blue;
+  background-color: navyblue;
   color: white;
   display: flex;
   flex-direction: column;
@@ -24,15 +24,15 @@ body {
   min-height: 100vh;
 }
 .container {
-  margin: 30px auto;
+  margin: 32px auto;
   width: 350px;
 }
 h1 {
-  letter-spacing: 1px;
+  letter-spacing: 2px;
   margin: 0;
 }
 h3 {
-  border-bottom: 1px solid var(--line);
+  border-bottom: 3px solid var(--line);
   padding: 10px;
   margin: 40px 0 10px;
   background-color: #00ff00;
@@ -63,7 +63,7 @@ p {
 }
 .money {
   font-size: 20px;
-  letter-spacing: 1px;
+  letter-spacing: 2px;
   margin: 5px 0;
 }
 .money.plus {
